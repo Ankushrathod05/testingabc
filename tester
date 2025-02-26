@@ -1,0 +1,101 @@
+Here are the functional test cases covering all possible scenarios based on the provided workflow and acceptance criteria:
+
+
+---
+
+Test Case 1: Verify Opportunity Creation for NTB Customer
+
+Scenario: NTB customer selects a product and proceeds with the lending application.
+Preconditions:
+
+NTB customer has selected a product.
+
+The "Interested/Proceed" button is available.
+
+
+
+---
+
+Test Case 2: Verify Opportunity Creation When Customer ID is Present
+
+Scenario: Customer ID is provided in the request.
+Preconditions:
+
+Business Customer ID is present in the request.
+
+
+
+---
+
+Test Case 3: Verify Opportunity Creation When Customer ID is Missing
+
+Scenario: Customer ID is not provided in the request.
+Preconditions:
+
+Business Customer ID is missing.
+
+
+
+---
+
+Test Case 4: Verify Customer ID Exists in SF
+
+Scenario: Customer ID is present and exists in SF.
+Preconditions:
+
+Customer ID is provided in the request.
+
+Customer ID exists in SF.
+
+
+
+---
+
+Test Case 5: Verify Customer ID Does Not Exist in SF
+
+Scenario: Customer ID is present but does not exist in SF.
+Preconditions:
+
+Customer ID is provided in the request.
+
+Customer ID does not exist in SF.
+
+
+
+---
+
+Test Case 6: Verify Opportunity Attributes Are Captured Correctly
+
+Scenario: Opportunity gets created, and attributes must be stored correctly.
+Preconditions:
+
+Opportunity creation process is completed successfully.
+
+
+
+---
+
+Test Case 7: Verify System Behavior When API Validation Fails
+
+Scenario: Invalid data is sent in the request.
+Preconditions:
+
+API request contains missing or incorrect details.
+
+
+
+---
+
+Test Case 8: Verify Logging of Requests in API Log
+
+Scenario: Every request must be logged in the API log.
+Preconditions:
+
+System receives an API request for opportunity creation.
+
+
+
+---
+
+Let me know if you need modifications or additional test scenarios.
+
